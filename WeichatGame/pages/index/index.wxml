@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="index">
+<view calss = "intro">
+  <text>This is a game to make all the light to turn on</text>
+</view>
+
+<view class = "block-list">
+
+  <block wx:for="{{list}}" wx:key="{{item.id}}">
+    <view class = "kind-list-item">
+      <view id = "{{item.id}}" class="kind-list-item-hd {{item.open? 'kind-list-item-hd-show':''}}" bindtap="kindToggle"> 
+            <view class="kind-list-text">{{item.name}}</view>
+      </view>
+    </view>
+  </block>
+  
+</view>
+</view>

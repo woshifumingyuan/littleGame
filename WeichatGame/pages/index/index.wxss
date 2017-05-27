@@ -1,0 +1,35 @@
+/**index.wxss**/
+.kind-list-item {
+  border-radius: 10rpx;
+  display: inline-block;
+  position: relative;
+  width: 160rpx;
+  height: 160rpx;
+}
+.kind-list-item-hd {
+  width: 160rpx;
+  height: 160rpx;
+  background-color: cornflowerblue;
+  align-items: center;
+  transition: opacity .3s;
+}
+.kind-list-item-hd-show {
+  opacity: 0.1;
+  
+}
+.kind-list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list-item-bd-show {
+  height: auto;
+}
+.intro{
+  
+}
+.index{
+
+}
+.block-list{
+   align-items: flex-end;
+}
